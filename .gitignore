@@ -4,5 +4,7 @@ node_modules/
 # Ignore log files
 *.log
 
-# Ignore all image files in specific folders
-downloads_*/   # Ignores all folders starting with "downloads_"
+# Don't ignore image folders (downloads_)
+!downloads_*/**/*.png
+!downloads_*/**/*.jpg
+!downloads_*/**/*.jpeg
