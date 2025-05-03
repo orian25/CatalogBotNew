@@ -1,0 +1,10 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Don't ignore image folders (downloads_)
+!downloads_*/**/*.png
+!downloads_*/**/*.jpg
+!downloads_*/**/*.jpeg
